@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-chef-amber: #f59e0b;
+  --color-chef-orange: #ea580c;
+  --color-chef-dark: #1c1917;
+  --color-chef-light: #fafaf9;
+}
