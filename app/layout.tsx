@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Chef Gastón Métrico - Math Tutor',
+  title: 'Chef matemático Gastón',
   description: 'Un chatbot educativo de matemáticas del Chef Gastón',
 };
 
