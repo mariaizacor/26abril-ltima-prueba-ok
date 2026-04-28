@@ -34,7 +34,7 @@ export default function Home() {
       setMessages([
         {
           role: 'model',
-          parts: [{ text: '¡Oído cocina! Soy el Chef Gastón Métrico. ¿Qué receta vamos a cocinar hoy: un guiso de integrales, un soufflé de geometría o unas galletas de fracciones?' }]
+          parts: [{ text: '¡Oído cocina, mi pequeño Chef! Soy el Chef Gastón Métrico. ¿Qué receta divertida vamos a preparar hoy: un pastel de sumas, una pizza de fracciones o unas galletas de multiplicaciones?' }]
         }
       ]);
     }
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className="text-xl font-bold uppercase tracking-tighter leading-none text-white">Chef Gastón</h1>
-              <p className="text-[10px] text-[#F27D26] uppercase tracking-widest font-semibold mt-1">Métrico • Cuántico</p>
+              <p className="text-[10px] text-[#F27D26] uppercase tracking-widest font-semibold mt-1">Magia • Diversión</p>
             </div>
           </div>
 
@@ -133,9 +133,9 @@ export default function Home() {
         {/* Chat Header */}
         <header className="h-20 border-b border-[#333] px-6 md:px-10 flex items-center justify-between bg-[#161616]/80 backdrop-blur-md z-10 shrink-0">
           <div className="flex flex-col">
-            <span className="text-xs text-[#F27D26] font-mono tracking-tighter">NIVEL: SOUS-CHEF JUNIOR</span>
+            <span className="text-xs text-[#F27D26] font-mono tracking-tighter">NIVEL: PINCHE DE COCINA</span>
             <h2 className="text-base md:text-lg font-serif italic text-white flex items-center gap-2 mt-1">
-              Recetario Cuántico
+              Recetario Mágico
               <Sparkles size={14} className="text-[#F27D26]" />
             </h2>
           </div>
